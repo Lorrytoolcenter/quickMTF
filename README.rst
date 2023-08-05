@@ -9,8 +9,7 @@ furnished to do so, subject to the following conditions:
  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  
-*for manufacture test sweep tone sound file ,which also do combined some package from opensource.  
-audio file analyze USE only  @  Lorry RUi  
+*for image quaility test purpose like lens focus test   @  Lorry RUi  
 
 Main feature for this package	
 ============================  
@@ -32,7 +31,7 @@ Mail to: :lorryruizhihua@gmail.com
 sample code for using lib quickMTF
 
 
-	.. code-block:: python
+.. code-block:: python
 
    from quickMTF.quickMTF import quickMTF
    import cv2
