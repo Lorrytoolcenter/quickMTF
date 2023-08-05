@@ -1,4 +1,4 @@
-Copyright (c) 2021 lorry_rui , Newark ,USA  
+Copyright (c) 2022 lorry_rui , Fremont ,USA  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11,20 +11,41 @@ furnished to do so, subject to the following conditions:
  
 *for image quaility test purpose like lens focus test   @  Lorry RUi  
 
-Main feature for this package	
-============================  
 
-	1) can quick get  MTF value bother for linepair or slant edge MTF
-	2)  
-	3)  
-	4)  
-	5)  
-	6)  
-		
+=======================
+Homepage: quickMTF
+=======================
+
+.. image:: https://github.com/Lorrytoolcenter/quickMTF/doc/linepair2.png
+   :align: center
+
+:github_url: https://github.com/Lorrytoolcenter/quickMTF
+
+Main Features
+================
+
+- Quick calculation of MTF values for both linepair and slant edge MTF.
+- Built-in GUI for image debugging and location picking.
+- Plot MTF chart 
+- GUI:
+- Check measure position percentage feature 
+- **Undo:** Undo one test.
+- **Clear all:** Clear all tests.
+- **Save current display:** Save the current scene.
+- **Save current image:** Save the image with markers based on image size.
+ 
 ____________________________________	
 
 
+
+
 Mail to: :lorryruizhihua@gmail.com  
+
+
+This is a GUI Sample
+====================
+
+.. image:: https://github.com/Lorrytoolcenter/quickMTF/doc/manual.png
 
 
 
