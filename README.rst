@@ -15,7 +15,8 @@ furnished to do so, subject to the following conditions:
 =======================
 Homepage: quickMTF
 =======================
-
+- [PyPI Package Page](https://pypi.org/project/quickMTF/)
+- [Source Code](https://github.com/Lorrytoolcenter/quickMTF)
 .. image:: https://github.com/Lorrytoolcenter/quickMTF/doc/linepair2.png
    :align: center
 .. image:: doc/linepair2.png
