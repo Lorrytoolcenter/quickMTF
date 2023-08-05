@@ -18,6 +18,8 @@ Homepage: quickMTF
 
 .. image:: https://github.com/Lorrytoolcenter/quickMTF/doc/linepair2.png
    :align: center
+.. image:: doc/linepair2.png
+   :width: 600
 
 :github_url: https://github.com/Lorrytoolcenter/quickMTF
 
@@ -46,6 +48,12 @@ This is a GUI Sample
 ====================
 
 .. image:: https://github.com/Lorrytoolcenter/quickMTF/doc/manual.png
+
+.. image:: doc/manual.png
+   :width: 600
+
+.. image:: doc/sfr.png
+   :width: 600
 
 
 
