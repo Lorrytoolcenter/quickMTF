@@ -95,12 +95,12 @@ class quickMTF:
 
     def linepairMTF_Gui(self, image, ROIX, ROIY, ROI_width, ROI_height=1, plotflag=0, timmer=0, flip=False,library='cv2'):
         " this one is for GUI use only "
-        cropped_image = image[ROIY:ROIY + ROI_height , ROIX:ROIX + ROI_width]
+        image = image[ROIY:ROIY + ROI_height , ROIX:ROIX + ROI_width]
         if flip==True:
             if library == 'PIL':
-                image = cropped_image.rotate(-90, expand=True)
+                image = image.rotate(-90, expand=True)
             elif library == 'cv2':
-                image = np.rot90(cropped_image, k=-1)
+                image = np.rot90(image, k=-1)
             # Rotate the image by transposing and mirroring
             ROI_width, ROI_height = self.get_image_size(image,library)
         MTF_ave,pl=self.lineMTF.Processing_MTF(image,ROI_width, ROI_height ,plotflag,library)
