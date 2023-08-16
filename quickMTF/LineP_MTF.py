@@ -33,8 +33,11 @@ class Line_pair_Mtf:
         if library == 'PIL':
             r, g, b = rgb_value
         elif library == 'cv2':
-            b, g, r = rgb_value
-
+            if len(rgb_value) == 3:  # RGB format
+                b, g, r = rgb_value
+            elif len(rgb_value) == 4:  # RGBA format (with alpha channel)
+                b, g, r, a = rgb_value
+                r, g, b = r * a*255, g * a* 255, b * a* 255  # Normalize color channels
         luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
         return luminance
 

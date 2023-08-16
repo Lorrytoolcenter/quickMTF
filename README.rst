@@ -24,6 +24,30 @@ Homepage: quickMTF
 
 :github_url: https://github.com/Lorrytoolcenter/quickMTF
 
+Installing Required Packages
+---------------------------
+
+To run the application successfully, you need to install the following Python packages:
+
+- **matplotlib**:
+
+  You can install the "matplotlib" package using the following command:
+
+  .. code-block:: bash
+
+     pip install matplotlib
+
+- **PyQt5**:
+
+  The "PyQt5" package is required for GUI functionality. Install it with the following command:
+
+  .. code-block:: bash
+
+     pip install PyQt5
+
+Make sure you have an active internet connection and a working Python environment before installing these packages.
+
+
 Main Features
 ================
 
